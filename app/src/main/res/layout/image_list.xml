@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+    <com.rnm.test.viewpagerexample.ForegroundImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:foreground="@drawable/grey_ripple"
+        android:clickable="true"
+        android:stateListAnimator="@animator/raise"
+        android:transitionName="@string/transition_photo"/>
+
+</LinearLayout>
+
